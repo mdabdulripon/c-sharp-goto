@@ -1,9 +1,17 @@
 # c-sharp-projects
 
-### See Documentation [cheat sheet #1](https://www.cheatography.com//laurence/cheat-sheets/c/pdf/) and [cheat sheet #2](https://www.thecodingguys.net/resources/cs-cheat-sheet.pdf) [c-sharp and net-informations](http://csharp.net-informations.com/)
+### See the cheat sheet 
+- [x] [cheat sheet #1](https://www.cheatography.com//laurence/cheat-sheets/c/pdf/) 
+- [x] [cheat sheet #2](https://www.thecodingguys.net/resources/cs-cheat-sheet.pdf)
+
+### See  Documentation
+- [x] [Tutlane](https://www.tutlane.com/tutorial/csharp)
+- [x] [Net-informations](http://csharp.net-informations.com/)
 
 ### What is the difference between .NET and ASP.NET?
-- The main difference between .NET and ASP .NET is that .NET is a software framework that allows developing, running and executing applications while ASP .NET is a web framework which is a part of .NET framework that is used to build dynamic websites, web applications, and web services.
+- The main difference between **.NET** and **ASP .NET** is that - 
+   - **.NET** is a *software framework* that allows developing, running and executing application And 
+   - **ASP .NET** is a *web framework* which is a part of *.NET* framework that is used to build dynamic websites, web applications, and web services.
 
 ### What are Difference Between ASP.NET VS ASP.NET Core?
 | ASP.NET                   | ASP.NET Core                |
@@ -22,11 +30,10 @@
       - The encapsulation hides the property and methods from the other classes.
       - The encapsulation can be implemented by using access specifiers 
       - It defines the scope and the visibility of the class member.
-   - [Inheritance:]() 
-      – It is the ability to create new classes from another class.
-      - It is done by accessing, modifying and extending the behavior of objects in the parent class.
-   - [Polymorphism]() 
-   – The name means, one name, many forms. It is achieved by having multiple methods with the same name but different implementations.
+   - [Inheritance:](https://www.tutlane.com/tutorial/csharp/csharp-inheritance) 
+      - It is the ability to create new classes from another class.
+   - [Polymorphism:](https://www.tutlane.com/tutorial/csharp/csharp-polymorphism) 
+      - The name means, one name, many forms. It is achieved by having multiple methods with the same name but different implementations.
 
 ### What is Static modifier?
 - The static modifier declares a member, that belongs to the class itself, instead of an object of the class. 
