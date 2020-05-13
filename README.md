@@ -7,6 +7,7 @@
 ### See  Documentation
 - [x] [Tutlane](https://www.tutlane.com/tutorial/csharp)
 - [x] [Net-informations](http://csharp.net-informations.com/)
+- [x] [Tutorialsteacher](https://www.tutorialsteacher.com/csharp/csharp-tutorials)
 
 ### What is the difference between .NET and ASP.NET?
 - The main difference between **.NET** and **ASP .NET** is that - 
@@ -86,7 +87,7 @@
       int* a;
    ```
 ### Data type diagram:
-- ![alt text](https://www.c-sharpcorner.com/UploadFile/BlogImages/11292012154826PM/CsharpDataTypesChart.png)
+![alt text](https://www.c-sharpcorner.com/UploadFile/BlogImages/11292012154826PM/CsharpDataTypesChart.png)
 
 ### [What is Stack and Heap?](http://net-informations.com/faq/net/stack-heap.htm)
 - Stack is used for static memory allocation and Heap for dynamic memory allocation, both stored in the computer's RAM.
@@ -151,3 +152,6 @@
   - The value of enum constants starts from 0. Enum can have value of any valid numeric type.
   - String enum is not supported in C#.
   - Use of enum makes code more readable and manageable.
+
+### [What is generics](https://www.tutorialsteacher.com/csharp/csharp-generics)?
+
