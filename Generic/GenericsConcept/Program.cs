@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.Design;
 
 namespace GenericsConcept
 {
@@ -12,6 +13,15 @@ namespace GenericsConcept
 
             Console.WriteLine(x.Result);
             Console.WriteLine(x.Message);
+
+            // Create an instance of the generic methods
+            var repo = new VendorRepository();
+            var sql = "Select * From SomeTable";
+            var getIntgerValue = repo.RetriveValue<int>(sql, 32);
+            Console.WriteLine(getIntgerValue);
+
+            var getStringValue = repo.RetriveValue<string>(sql, "Value");
+            Console.WriteLine(getStringValue);
         }
     }
 }
