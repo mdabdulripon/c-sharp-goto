@@ -4,7 +4,7 @@
 - A technique that allows you to write a class or method that can work with any data type.
 
 ### What are the benefits of Generics?
-- With generics, we can write reuseable code that is type-safe and can work with any data type.
+- With generics, we can write reusable code that is type-safe and can work with any data type.
 
 ### What is a generics type parameter?
 A placeholder for a specific type. for example:
@@ -32,5 +32,9 @@ A placeholder for a specific type. for example:
 	var operatorResult = new OperatorResult<bool>(); 
 	In this case the actual type is boolean
 ```
+### Best practice of Generic methods
+- Create generics method to build the reusable code.
+- Avoid generics when not needed.
+
 ### What is the purpose of a generic constrains?
 - To limit the types accepted for a generic type parameter.
